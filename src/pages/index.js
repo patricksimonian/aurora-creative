@@ -9,7 +9,7 @@ const IndexPage = () => (
     <h1>Aurora Creative</h1>
     <p>Please check back soon for great things to come!</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+      {/* <Image /> */}
     </div>
   </Layout>
 )

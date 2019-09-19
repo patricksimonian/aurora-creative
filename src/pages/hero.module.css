@@ -1,0 +1,21 @@
+.Hero-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 32% 0%, 0% 0%);
+}
+
+.Hero-image:before {
+  content: "";
+  position:absolute;
+  left: 0;
+  top: calc(50% - 0.35em);
+  width: 10.7em;
+  height: 10.7em;
+  z-index: 100;
+  /* background: linear-gradient(to bottom left, #34495e 50%, transparent 50%); */
+  /* border-radius: 0.1em; */
+  border-radius: 50%;
+  box-shadow: -20px 20px 0 0 #fff;
+}
